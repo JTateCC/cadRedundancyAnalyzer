@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d69d0fe2-f998-424b-85b7-d6598cfeb5ce" name="Changes" comment="refactored for better project strucutre&#10;added tests for filecrawler.">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_filesystem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_handler_stl.py" afterDir="false" />
+    <list default="true" id="d69d0fe2-f998-424b-85b7-d6598cfeb5ce" name="Changes" comment="added tests for the handler">
+      <change afterPath="$PROJECT_DIR$/cadRedundancyAnalyzer/core/analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadRedundancyAnalyzer/core/similarity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_similarity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_filecrawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/cadRedundancyAnalyzer/discovery/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadRedundancyAnalyzer/handlers/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/cadRedundancyAnalyzer/handlers/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadRedundancyAnalyzer/handlers/stl_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/cadRedundancyAnalyzer/handlers/stl_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_handler_stl.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_handler_stl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +74,20 @@
       <option name="project" value="LOCAL" />
       <updated>1756414738549</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added tests for the handler">
+      <option name="closed" value="true" />
+      <created>1760644638370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760644638370</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactored for better project strucutre&#10;added tests for filecrawler." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored for better project strucutre&#10;added tests for filecrawler." />
+    <MESSAGE value="added tests for the handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests for the handler" />
   </component>
 </project>

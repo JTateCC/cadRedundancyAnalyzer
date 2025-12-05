@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from cadRedundancyAnalyzer.core.models import ComponentMetadata, GeometricSignature
 
 
 
